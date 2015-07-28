@@ -1,5 +1,5 @@
 CREATE TABLE `elements` (
-  `element_id` int(11) NOT NULL,
+  `element_id` int(3) NOT NULL,
   `group` tinyint(1) NULL,
   `period` tinyint(1) NULL,
   `atomic_number` tinyint(3) NOT NULL,
@@ -9,4 +9,4 @@ CREATE TABLE `elements` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 ALTER TABLE `elements` ADD PRIMARY KEY (`element_id`);
-ALTER TABLE `elements` MODIFY `element_id` INT(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `elements` MODIFY `element_id` INT(3) NOT NULL AUTO_INCREMENT;
